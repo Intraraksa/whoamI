@@ -2,7 +2,7 @@
 import { Github, Linkedin } from 'lucide-react'
 import Image from 'next/image'
 import { WorkExperienceCard } from '@/components/ui/WorkExperienceCard'
-import { Chat } from '@/components/ui/Chat'
+// import { Chat } from '@/components/ui/Chat'
 
 const workExperience = [
   {
@@ -117,9 +117,9 @@ export default function Home() {
           <p>&copy; {new Date().getFullYear()} Natdanai Intraraksa. All Rights Reserved.</p>
         </footer>
       </div>
-      <div className="w-[400px] h-screen p-4">
-        <Chat />
-      </div>
+      {/* <div className="w-[400px] h-screen p-4"> */}
+        {/* <Chat /> */}
+      {/* </div> */}
     </div>
   )
 }
